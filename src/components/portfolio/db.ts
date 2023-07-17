@@ -32,10 +32,10 @@ export const projectsList: {
     img: "project2.png",
     descEng1: "Layout of the main page of the website 'travel to mars'",
     descEng2:
-      "Go to Mars is a one-page website. He was my test assignment for a company. When you go to /admin, you can enter the panel to edit the elements of the main page.",
+      "Go to Mars is a one-page website. He was my test assignment for a company. When you go to /#/admin, you can enter the panel to edit the elements of the main page.",
     descRus1: "Макет главной страницы сайта 'travel to mars'",
     descRus2:
-      "Go to Mars - это одностраничный веб-сайт. Он был моим тестовым заданием для компании. Когда вы заходите в /admin, вы можете войти в панель для редактирования элементов главной страницы.",
+      "Go to Mars - это одностраничный веб-сайт. Он был моим тестовым заданием для компании. Когда вы заходите в /#/admin, вы можете войти в панель для редактирования элементов главной страницы.",
     techC: "React.js, SCSS, ReactDOM, Axios, Vite, Fontawesome",
     techB: "Django, Rest Framework, Sequelize, Cors, SQlite3",
   },
