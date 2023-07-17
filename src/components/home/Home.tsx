@@ -57,7 +57,7 @@ export const Home: FC = observer(() => {
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
-        transition={{ ease: "linear", duration: 0.5, type: "spring" }}
+        transition={{ duration: 0.5, type: "spring" }}
         viewport={{ once: true }}
         className="flex justify-center p-6 gap-6 select-none lg:flex-row flex-col items-center"
       >
@@ -77,7 +77,6 @@ export const Home: FC = observer(() => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{
-          ease: "linear",
           duration: 0.5,
           type: "spring",
           delay: 0.1,
@@ -118,7 +117,6 @@ export const Home: FC = observer(() => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{
-          ease: "linear",
           duration: 0.5,
           type: "spring",
           delay: 0.1,
