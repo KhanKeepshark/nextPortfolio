@@ -105,6 +105,7 @@ export const Home: FC = observer(() => {
                 ? "after:w-[110px] hover:after:w-[114px]"
                 : "after:w-[140px] hover:after:w-[144px]"
             }`}
+            href="https://drive.google.com/file/d/1s4XM4DutZyqGg0Ve0vvFMwbCKtIdoQmq/view?usp=sharing"
           >
             <p className="font-extralight">
               {lanEng ? "Download CV" : "Скачать Резюме"}
