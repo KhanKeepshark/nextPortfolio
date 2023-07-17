@@ -18,7 +18,6 @@ export const About: FC<IAbout> = ({ setIsOpen, eng }) => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{
-          ease: "linear",
           duration: 0.5,
           type: "spring",
           delay: 0.1,
