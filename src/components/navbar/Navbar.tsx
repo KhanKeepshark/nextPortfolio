@@ -6,11 +6,9 @@ import Link from "next/link";
 import languageStore from "../store/language-store";
 import { observer } from "mobx-react";
 
-interface INavbar {}
-
-export const Navbar: FC<INavbar> = observer(() => {
+export const Navbar: FC = observer(() => {
   const { lanEng, changeLan } = languageStore;
-  const [navToggle, setNavToggle] = useState(false);
+  const [navToggle, setNavToggle] = useState<boolean>(false);
 
   const navLinkClasses =
     "flex mx-3 lg:py-0 py-2 cursor-pointer text-gray-500 hover:text-black hover:font-extralight";

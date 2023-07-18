@@ -4,7 +4,5 @@ import { useRouter } from "next/router";
 export default function ProjectPage() {
   const { query } = useRouter();
 
-  const id = query.title as string;
-
-  return <Project id={id} />;
+  return <Project id={query.title as string} />;
 }

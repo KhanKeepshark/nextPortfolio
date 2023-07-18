@@ -15,7 +15,7 @@ import { observer } from "mobx-react";
 const inter = Caveat({ subsets: ["latin"] });
 
 export const Home: FC = observer(() => {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState<boolean>(false);
   const { lanEng } = languageStore;
   return (
     <>

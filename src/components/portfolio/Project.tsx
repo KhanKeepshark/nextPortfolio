@@ -1,4 +1,4 @@
-import { FC } from "react";
+import { FC, useMemo } from "react";
 import { FiArrowRight } from "react-icons/fi";
 import ErrorPage from "next/error";
 import { Navbar } from "../navbar/Navbar";
@@ -12,7 +12,9 @@ interface IProject {
 }
 
 export const Project: FC<IProject> = observer(({ id }) => {
-  const project = projectsList.filter((project) => project.titleId === id)[0];
+  const project = useMemo(() => {
+    return projectsList.filter((project) => project.titleId === id)[0];
+  }, [id]);
   const { lanEng } = languageStore;
 
   if (!project) {
